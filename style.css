@@ -179,10 +179,12 @@ button {
     background: #2c3e50;
     color: white;
     border: none;
-    padding: 1rem 2rem;
+    width: 100px;
+    height: 40px;
+    padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.9rem;
     transition: background 0.3s ease;
 }
 
