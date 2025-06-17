@@ -31,6 +31,7 @@ body {
 /* Container principal */
 .content-wrapper {
     position: relative;
+    text-align: center;
 }
 
 /* Cabeçalho */
