@@ -70,6 +70,18 @@ nav ul li a:hover {
     background: rgba(255, 255, 255, 0.2);
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+}
+
 /* Seções */
 .section {
     padding: 4rem 1rem;
@@ -221,8 +233,23 @@ footer {
     }
     
     nav ul {
+        display: none;
         flex-direction: column;
         gap: 0.5rem;
+        background: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
     }
     
     .features {
