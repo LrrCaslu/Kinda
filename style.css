@@ -79,7 +79,7 @@ nav ul li a:hover {
     cursor: pointer;
     position: absolute;
     top: -12px;
-    left: 1rem;
+    left: -15px;
 }
 
 /* Seções */
