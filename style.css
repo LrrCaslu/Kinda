@@ -252,8 +252,8 @@ footer {
         position: absolute;
         top: 100%;
         right: 0;
-        width: 200px;
-        padding: 1rem 0;
+        width: 100px;
+        padding: 0.5rem 0;
     }
 
     nav ul.show {
