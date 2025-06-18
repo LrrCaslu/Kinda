@@ -31,7 +31,6 @@ body {
 /* Container principal */
 .content-wrapper {
     position: relative;
-    text-align: center;
 }
 
 /* Cabeçalho */
@@ -39,7 +38,7 @@ header {
     background: rgba(0, 0, 0, 0.3);
     color: #fff;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 0.1rem 1rem;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -89,6 +88,14 @@ nav ul li a:hover {
     min-height: 100vh;
     display: flex;
     align-items: center;
+}
+
+#home {
+    text-align: center;
+}
+
+#formacao {
+    text-align: center;
 }
 
 .section .container {
