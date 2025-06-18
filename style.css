@@ -247,7 +247,7 @@ footer {
         background: rgba(0, 0, 0, 0.9);
         position: absolute;
         top: 100%;
-        left: 0;
+        right: 0;
         width: 100%;
         padding: 1rem 0;
     }
